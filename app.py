@@ -141,3 +141,4 @@ else:
                 st.session_state['quiz_finished'] = False
                 st.session_state['user_answers'] = {}
                 st.rerun()
+        print("=== 앱 조작 감지됨 ===")
